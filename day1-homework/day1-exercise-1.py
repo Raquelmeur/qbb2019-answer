@@ -5,7 +5,9 @@ import sys
 f=open(sys.argv[1])
 
 count=0
-for x in f.readlines():
-    count+=1
+for i in f:
+    fields=i.split("\t")
+    if fields[2]!="*":
+        count+=1
 print(count)
 
