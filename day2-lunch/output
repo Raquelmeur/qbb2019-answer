@@ -1,0 +1,113 @@
+total 46701064
+-rw-r--r--  1 cmdb  staff    51898228 Aug 27 12:05 BDGP6.1.ht2
+-rw-r--r--  1 cmdb  staff    35643260 Aug 27 12:05 BDGP6.2.ht2
+-rw-r--r--  1 cmdb  staff       21986 Aug 27 12:04 BDGP6.3.ht2
+-rw-r--r--  1 cmdb  staff    35643255 Aug 27 12:04 BDGP6.4.ht2
+-rw-r--r--  1 cmdb  staff    77356861 Aug 27 12:06 BDGP6.5.ht2
+-rw-r--r--  1 cmdb  staff    36275452 Aug 27 12:06 BDGP6.6.ht2
+-rw-r--r--  1 cmdb  staff          12 Aug 27 12:04 BDGP6.7.ht2
+-rw-r--r--  1 cmdb  staff           8 Aug 27 12:04 BDGP6.8.ht2
+-rw-r--r--@ 1 cmdb  staff         482 Aug 27 13:00 README.md
+-rw-r--r--  1 cmdb  staff      443387 Aug 27 12:38 SRR072893.10k.bam
+-rw-r--r--  1 cmdb  staff      132360 Aug 27 12:39 SRR072893.10k.bam.bai
+-rw-r--r--  1 cmdb  staff     1991262 Aug 27 11:40 SRR072893.10k.fastq
+-rw-r--r--  1 cmdb  staff    31572067 Aug 27 12:59 SRR072893.10k.gtf
+-rw-r--r--  1 cmdb  staff     1821712 Aug 27 12:19 SRR072893.10k.sam
+-rw-r--r--@ 1 cmdb  staff      610311 Aug 27 11:51 SRR072893.10k_fastqc.html
+-rw-r--r--  1 cmdb  staff      431319 Aug 27 11:51 SRR072893.10k_fastqc.zip
+-rw-r--r--  1 cmdb  staff   619812807 Aug 27 14:00 SRR072893.bam
+-rw-r--r--  1 cmdb  staff      240216 Aug 27 14:00 SRR072893.bam.bai
+-r--r--r--  1 cmdb  staff  4582672018 Aug 27 13:03 SRR072893.fastq
+-rw-r--r--  1 cmdb  staff    32929644 Aug 27 14:02 SRR072893.gtf
+-rw-r--r--  1 cmdb  staff  3985446450 Aug 27 13:59 SRR072893.sam
+-rw-r--r--  1 cmdb  staff      627558 Aug 27 13:58 SRR072893_fastqc.html
+-rw-r--r--  1 cmdb  staff      511890 Aug 27 13:58 SRR072893_fastqc.zip
+-rw-r--r--  1 cmdb  staff           0 Aug 27 14:02 SRR072903.bam
+-r--r--r--  1 cmdb  staff  4295582972 Aug 27 13:55 SRR072903.fastq
+-rw-r--r--  1 cmdb  staff   420732928 Aug 27 14:02 SRR072903.sam
+-rw-r--r--  1 cmdb  staff      607544 Aug 27 13:56 SRR072903_fastqc.html
+-rw-r--r--  1 cmdb  staff      452888 Aug 27 13:56 SRR072903_fastqc.zip
+-rw-r--r--  1 cmdb  staff           0 Aug 27 14:03 SRR072905.bam
+-r--------  1 cmdb  staff  2792357888 Aug 27 13:56 SRR072905.fastq
+-rw-r--r--  1 cmdb  staff  1955012608 Aug 27 14:03 SRR072905.sam
+-rw-r--r--  1 cmdb  staff          93 Aug 27 14:03 SRR072915.bam
+-rw-r--r--  1 cmdb  staff          16 Aug 27 14:03 SRR072915.bam.bai
+-r--r--r--  1 cmdb  staff  4841851938 Aug 27 14:03 SRR072915.fastq
+-rw-r--r--  1 cmdb  staff           0 Aug 27 14:03 SRR072915.sam
+-rwxr-xr-x@ 1 cmdb  staff         449 Aug 27 13:57 doRNA-seq.sh
+-rw-r--r--  1 cmdb  staff     2154166 Aug 27 14:02 e2t.ctab
+-rw-r--r--  1 cmdb  staff     5726602 Aug 27 14:02 e_data.ctab
+-rw-r--r--  1 cmdb  staff     1745148 Aug 27 14:02 i2t.ctab
+-rw-r--r--  1 cmdb  staff     2269315 Aug 27 14:02 i_data.ctab
+-rw-r--r--  1 cmdb  staff           0 Aug 27 14:05 output
+-rw-r--r--  1 cmdb  staff     2914398 Aug 27 14:02 t_data.ctab
+drwx------  3 cmdb  staff          96 Aug 27 13:49 tmp.DFLrkoPd
+drwx------  3 cmdb  staff          96 Aug 27 14:03 tmp.DX7OWh9A
+drwx------  3 cmdb  staff          96 Aug 27 13:56 tmp.FG9rAZpm
+drwx------  3 cmdb  staff          96 Aug 27 13:49 tmp.IKXiM7k4
+drwx------  3 cmdb  staff          96 Aug 27 13:49 tmp.JB7xC0Cy
+drwx------  3 cmdb  staff          96 Aug 27 14:03 tmp.aaXQfAam
+drwx------  3 cmdb  staff          96 Aug 27 13:51 tmp.bGZlgoHQ
+drwx------  3 cmdb  staff          96 Aug 27 13:51 tmp.cUvIMSWP
+drwx------  3 cmdb  staff          96 Aug 27 14:02 tmp.d5zoIrKw
+drwx------  3 cmdb  staff          96 Aug 27 13:49 tmp.e0YxXzqF
+drwx------  3 cmdb  staff          96 Aug 27 13:55 tmp.fTPgWooF
+drwx------  3 cmdb  staff          96 Aug 27 13:51 tmp.khM9gAll
+drwx------  3 cmdb  staff          96 Aug 27 13:51 tmp.oFMjXenR
+drwx------  3 cmdb  staff          96 Aug 27 12:56 tmp.zUZ2kIZ7
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.DFLrkoPd:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:49 SRR072915.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.DX7OWh9A:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 14:03 SRR072915.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.FG9rAZpm:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:56 SRR072903.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.IKXiM7k4:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:49 SRR072903.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.JB7xC0Cy:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:49 SRR072905.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.aaXQfAam:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 14:03 SRR072905.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.bGZlgoHQ:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:51 SRR072915.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.cUvIMSWP:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:51 SRR072905.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.d5zoIrKw:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 14:02 SRR072903.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.e0YxXzqF:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:49 SRR072893.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.fTPgWooF:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:55 SRR072893.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.khM9gAll:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:51 SRR072893.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.oFMjXenR:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:51 SRR072903.gtf.tmp
+
+/Users/cmdb/qbb2019-answer/day2-lunch//tmp.zUZ2kIZ7:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 12:56 stdout.08_27_12:56:35.tmp
