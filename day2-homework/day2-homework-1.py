@@ -12,7 +12,7 @@ for i, line in enumerate(sys.stdin):
     columns=line.rstrip("\n").split()
     id_fly=columns[-1]
     ac=columns[-2]
-    print(id_fly, ac)
+    print(id_fly, ac, sep="\t")
     
     
     
