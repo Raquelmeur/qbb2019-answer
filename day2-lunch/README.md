@@ -24,3 +24,9 @@ done
 (you first sort the gtf file and feed it to the cut function, where you just set it to read the first column with the chromosomes names, then using uniq -c you count the unique alignments in their clusters and therefore get the counts on each chromosome)
 
 /Users/cmdb/qbb2019-answer/day2-lunch $ sort SRR072893.10k.gtf | cut -f 1 | uniq -c > question3_lunch
+
+#Question4
+
+/Users/cmdb/qbb2019-answer/day2-lunch $ samtools view SRR072893.sam | awk '{print NF}' | sort | uniq -c > SRR072893.columns
+
+lines with 12 lines have bad reads lines with 20 columns have good quality reads 
