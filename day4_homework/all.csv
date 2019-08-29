@@ -1,4 +1,4 @@
-t_name,gene_name,"('male', '10')","('male', '11')","('male', '12')","('male', '13')","('male', '14A')","('male', '14B')","('male', '14C')","('male', '14D')","('female', '10')","('female', '11')","('female', '12')","('female', '13')","('female', '14A')","('female', '14B')","('female', '14C')","('female', '14D')"
+t_name,gene_name,male_10,male_11,male_12,male_13,male_14A,male_14B,male_14C,male_14D,female_10,female_11,female_12,female_13,female_14A,female_14B,female_14C,female_14D
 FBtr0114258,CR41571,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 FBtr0346770,CG45784,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 FBtr0302440,CR12798,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
