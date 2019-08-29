@@ -25,6 +25,7 @@ for identifier, sequence1 in query:
     for a in range(0,len(sequence1) -k +1):
         kmerquery=sequence1[a:a+k]
         if kmerquery in dic_target:
-            print(dic_target[kmerquery], str(a), kmerquery)
+            for ident, j in dic_target[kmerquery]:
+                print(j, ident, a, kmerquery)
         
 
