@@ -40,7 +40,7 @@ for index,row in new_new_new_df.iterrows():
         if row.loc["start"]<1:
             row.loc["start"]=1
         # print(row.loc["start"])
-        end = int(row.loc["start"])+int(row.loc["quant"]*2)
+        end = int(row.loc["start"])+(int(row.loc["quant"])*2)
         #print(row.loc["chr"],row.loc["start"], end, row.loc["t_name"],sep="\t")
         print(row.loc["chr"],row.loc["start"], end, row.loc["t_name"],sep="\t")
         
