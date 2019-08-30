@@ -10,7 +10,7 @@ df=pd.read_csv(sys.argv[1],
 
 new_df=df.loc[:,["chr","start","end","t_name"]]
 
-strand=df.loc[:,"strand"]=="-"
+strand=df.loc[:,"strand"]=="+"
 col_strand=strand.drop(columns="t_name")
 
 new_new_df=new_df.join(col_strand)
@@ -40,15 +40,15 @@ for index,row in new_new_new_df.iterrows():
         if row.loc["start"]<1:
             row.loc["start"]=1
         # print(row.loc["start"])
-        end = int(row.loc["start"])+int(row.loc["quant"])
+        end = int(row.loc["start"])+int(row.loc["quant"]*2)
         #print(row.loc["chr"],row.loc["start"], end, row.loc["t_name"],sep="\t")
         print(row.loc["chr"],row.loc["start"], end, row.loc["t_name"],sep="\t")
         
     else:
-        row.loc["end"]=int(row.loc["end"])-int(row.loc["quant"])
+        row.loc["end"]=int(row.loc["end"])+int(row.loc["quant"])
         if row.loc["end"]<1:
             row.loc["end"]=1
-        end=int(row.loc["end"])+int(row.loc["quant"])
+        end=int(row.loc["end"])-(int(row.loc["quant"]*2))
         if end<1:
             end=1
         print(row.loc["chr"],row.loc["end"], end, row.loc["t_name"],sep="\t")
