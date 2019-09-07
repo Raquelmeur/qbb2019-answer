@@ -41,20 +41,7 @@ while (lo < hi):
 print(gene_list[lo],number_iterations)
 
 quit()
-if (abs(gene_list[lo][2] - mutation)) > (abs(gene_list[hi][1]-mutation)):
-    mid = hi
-    print(abs(gene_list[hi][1]-mutation))
-if (abs(gene_list[lo][2] - mutation)) < (abs(gene_list[hi][1]-mutation)):
-    mid = lo
-    print (abs(gene_list[lo][2] - mutation))
 
-print(gene_list[mid])
-print (number_iterations)
-
-  # else:
-      # break
-       #print(gene_list[0])
-       
 
  
        
