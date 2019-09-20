@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+
+"""
+Parse and print all records from a FASTA file
+"""
+
+import sys
+
+#OBJECT
+              #every object takes as argument a special variable called self
+
+class FASTAReader(object):
+    def __init__(self,fh):      #that is how we call an object - fh is the name of the file
+        self.fh=fh
+        self.last_ident=None
+        self.eof=False
+    def next(self):
+        if self.eof:
+            return None,None
+        elif self.last_ident is None:
+            line=self.fh.readline()
+            assert line.startswith(">"), "Not a FASTA file" 
+            ident=line[1:].rstrip("\n")
+        else:
+            ident=self.last_ident
+            
+        #If we reach this point, ident is set correctly
+        
+        sequences=[]
+        while True:     #that is how python identifies there is no line, 
+            line=self.fh.readline()
+            if line=="":         
+                self.eof=True
+                break
+            elif line.startswith(">"):
+                self.last_ident=line[1:].rstrip("\n")   #you are storing it
+                break
+            else:
+                sequences.append(line.strip())
+        sequence="".join(sequences)
+        return ident,sequence
+        
+   
+#What I want to work:
+
+reader=FASTAReader(sys.stdin)   #we provide our own object that know how to parse
+number_contigs=0
+contig_length=[]
+
+while True:
+    ident,sequence=reader.next()
+    number_contigs+=1
+    contig_length.append(len(str(sequence)))
+    contig_length.sort(reverse=True)
+    if ident is None:
+        break
+    #print(ident, sequence)
+average=sum(contig_length)/len(contig_length)
+n50=sum(contig_length)/2
+sum_n50=0
+count_n50=0
+for i in contig_length:
+    if sum_n50<=n50:
+        sum_n50+=i
+        count_n50+=1
+    else:
+        break
+#print(n50)
+print(number_contigs,contig_length[0],contig_length[len(contig_length)-1],average,contig_length[count_n50])
+print('Number of contigs ' + str(number_contigs))
+print('Minimum ' + str(contig_length[0]))
+print('Maximum '+str(contig_length[len(contig_length)-1]))
+print('Average ' + str(average))
+print('N50 ' + str(contig_length[count_n50]))
+
