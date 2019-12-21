@@ -74,7 +74,7 @@ ax2.legend()
 fig.tight_layout()
 
 
-
+ 
 fig.savefig("Plot.png")
 plt.close(fig)
     
